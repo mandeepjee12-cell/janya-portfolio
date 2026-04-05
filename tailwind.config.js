@@ -1,0 +1,35 @@
+export default {
+  content: ['./index.html', './src/**/*.{js,jsx}'],
+  theme: {
+    extend: {
+      fontFamily: {
+        display: ['"Clash Display"', 'sans-serif'],
+        sans: ['"Cabinet Grotesk"', 'sans-serif'],
+        mono: ['"JetBrains Mono"', 'monospace'],
+      },
+      colors: {
+        paper: '#F5F3EE',
+        white: '#FFFFFF',
+        ink: '#0D0D0D',
+        'ink-2': '#1A1A1A',
+        'ink-3': '#2D2D2D',
+        muted: '#6B6B6B',
+        subtle: '#A8A8A8',
+        rule: '#E8E4DE',
+        'rule-2': '#D4CFC8',
+        blue: '#1B4FFF',
+        'blue-light': '#EEF2FF',
+        'blue-mid': '#C7D2FE',
+        violet: '#7C3AED',
+        'violet-light': '#F5F3FF',
+        teal: '#0D9488',
+        'teal-light': '#F0FDFA',
+        amber: '#D97706',
+        'amber-light': '#FFFBEB',
+        green: '#059669',
+        'green-light': '#ECFDF5',
+      },
+    },
+  },
+  plugins: [],
+}
